@@ -39,6 +39,32 @@
             padding: 8px 15px;
             cursor: pointer;
         }
+
+.toc {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.toc h3 {
+    margin-top: 0;
+}
+
+.toc a {
+    display: block;
+    padding: 6px 0;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
     </style>
 </head>
 
@@ -46,10 +72,20 @@
 
 <h1>WhatsApp Messages</h1>
 
+<div class="toc">
+    <button onclick="location.href='#Invite'">Invitation on Day 0</button>
+    <button onclick="location.href='#f1'">Follow-up 1 on Day 1</button>
+    <button onclick="location.href='#f2'">Follow-up 2 on Day 3</button>
+    <button onclick="location.href='#f3'">Follow-up 3 on Day 6</button>
+    <button onclick="location.href='#f4'">Follow-up 4 on Day 8</button>
+    <button onclick="location.href='#f5'">Follow-up 5 on Day 10</button>
+    <button onclick="location.href='#call'">Call Script</button>
+</div>
+
 <!-- Invitation Message Box -->
 <div class="message-box">
     <div class="header">
-        <span class="title">Invitation Message - Day 0</span>
+        <span class="title">Invitation Message on Day 0</span>
         <button onclick="copyMessage('Invite')">Copy</button>
     </div>
 
@@ -79,7 +115,7 @@ https://joinsuccesssquad.in/body-reboot
 <!--Follow-up 1 Message -->
 <div class="message-box">
     <div class="header">
-        <span class="title">Follow-up 1 Message - Day 1</span>
+        <span class="title">Follow-up 1 Message on Day 1</span>
         <button onclick="copyMessage('f1')">Copy</button>
     </div>
     <div class="message" id="f1">
@@ -105,7 +141,7 @@ _Reply *STOP* to cancel future messages._
 <!--Follow-up 2 Message -->
 <div class="message-box">
     <div class="header">
-        <span class="title">Follow-up 2 Message - Day 3</span>
+        <span class="title">Follow-up 2 Message on Day 3</span>
         <button onclick="copyMessage('f2')">Copy</button>
     </div>
 
@@ -132,7 +168,7 @@ _Reply *STOP* to cancel future messages._
 <!--Follow-up 3 Message -->
 <div class="message-box">
     <div class="header">
-        <span class="title">Follow-up 3 Message - Day 6</span>
+        <span class="title">Follow-up 3 Message on Day 6</span>
         <button onclick="copyMessage('f3')">Copy</button>
     </div>
 
@@ -157,10 +193,18 @@ _Reply *STOP* to cancel future messages._
 </div>
 
 <!------------------------------------------------------------------------------------------>
+<!--Follow-up call reminder -->
+<div class="message-box">
+    <div class="header">
+        <span class="title">Call the lead on Day 7</span>
+    </div>
+</div>
+
+<!------------------------------------------------------------------------------------------>
 <!--Follow-up 4 Message -->
 <div class="message-box">
     <div class="header">
-        <span class="title">Follow-up 4 Message - Day 8</span>
+        <span class="title">Follow-up 4 Message on Day 8</span>
         <button onclick="copyMessage('f4')">Copy</button>
     </div>
 
@@ -196,7 +240,7 @@ _Reply *STOP* to cancel future messages._
 <!--Follow-up 5 Message -->
 <div class="message-box">
     <div class="header">
-        <span class="title">Follow-up 5 Message - Day 10</span>
+        <span class="title">Follow-up 5 Message on Day 10</span>
         <button onclick="copyMessage('f5')">Copy</button>
     </div>
 
@@ -264,7 +308,7 @@ _Reply *STOP* to cancel future messages._
 
 ---
 
-IF NOT WATCHED
+<b>IF NOT WATCHED</b>
 
 பரவாயில்லை.
 
@@ -276,7 +320,7 @@ IF NOT WATCHED
 
 ---
 
-IF WATCHED
+<b>IF WATCHED</b>
 
 சூப்பர் 👍
 
@@ -288,7 +332,7 @@ Video-வை பார்த்த பிறகு...
 
 ---
 
-HEALTH GOAL QUESTION
+<b>HEALTH GOAL QUESTION</b>
 
 தற்போது உங்களுடைய முக்கிய health goal என்ன?
 
@@ -302,7 +346,7 @@ HEALTH GOAL QUESTION
 
 ---
 
-IF INTERESTED
+<b>IF INTERESTED</b>
 
 Video-வை பார்த்த பிறகு இந்த approach உங்களுக்கு பொருத்தமாக தோன்றுகிறதா?
 
@@ -312,7 +356,7 @@ Video-வை பார்த்த பிறகு இந்த approach உங�
 
 ---
 
-COMMON QUESTION
+<b>COMMON QUESTION</b>
 
 "இந்த Program-ல் என்ன செய்ய வேண்டும்?"
 
@@ -324,7 +368,7 @@ Goal வெறும் weight loss மட்டும் இல்லை.
 
 ---
 
-COMMON QUESTION
+<b>COMMON QUESTION</b>
 
 "மாதம் ₹8,000 - ₹10,000 செலவு செய்ய வேண்டுமா?"
 
@@ -342,7 +386,7 @@ Program-ல் இணைந்த பிறகு, இந்த உணவுக�
 
 ---
 
-COMMON QUESTION
+<b>COMMON QUESTION</b>
 
 "இதற்கு எவ்வளவு நேரம் ஒதுக்க வேண்டும்?"
 
@@ -354,7 +398,7 @@ COMMON QUESTION
 
 ---
 
-CLOSING
+<b>CLOSING</b>
 
 சரி 👍
 
@@ -366,7 +410,7 @@ CLOSING
 
 ---
 
-IF THEY SAY YES
+<b>IF THEY SAY YES</b>
 
 அருமை 👍
 
@@ -374,7 +418,7 @@ IF THEY SAY YES
 
 ---
 
-IF THEY SAY THEY NEED TIME
+<b>IF THEY SAY THEY NEED TIME</b>
 
 புரிகிறது 👍
 
@@ -386,7 +430,7 @@ IF THEY SAY THEY NEED TIME
 
 ---
 
-IF THEY SAY NO
+<b>IF THEY SAY NO</b>
 
 பரவாயில்லை 👍
 
