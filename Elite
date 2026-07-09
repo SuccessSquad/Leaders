@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Body Reboot Messages</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .message-box {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f5f5f5;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+        .message {
+            padding: 15px;
+            white-space: pre-wrap;
+        }
+
+        button {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+
+.toc {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.toc h3 {
+    margin-top: 0;
+}
+
+.toc a {
+    display: block;
+    padding: 6px 0;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+    </style>
+</head>
+
+<body>
+
+<h1>Body Reboot Follow-up Process</h1>
+
+<div class="toc">
+    <button onclick="location.href='#Invite'">Invitation on Day 0</button>
+    <button onclick="location.href='#f1'">Follow-up 1 on Day 1</button>
+    <button onclick="location.href='#f2'">Follow-up 2 on Day 3</button>
+    <button onclick="location.href='#f3'">Follow-up 3 on Day 6</button>
+    <button onclick="location.href='#call'">Call on Day 7</button>
+    <button onclick="location.href='#f4'">Follow-up 4 on Day 8</button>
+    <button onclick="location.href='#f5'">Follow-up 5 on Day 10</button>
+</div>
+
+<!-- Invitation Message Box -->
+<div class="message-box">
+    <div class="header">
+        <span class="title">Invitation Message on Day 0</span>
+        <button onclick="copyMessage('Invite')">Copy</button>
+    </div>
+
+    <div class="message" id="Invite">
+*வணக்கம்! 😊*
+
+*Elite Pen India* பற்றிய தகவலை கேட்டதற்கு நன்றி.
+
+இந்த Premium Pen மற்றும் அதனுடன் கிடைக்கும் *வருமான வாய்ப்பு* பற்றிய முழு விளக்கத்தை அறிய, கீழே உள்ள வீடியோவை முழுமையாக பாருங்கள். 👇
+
+🎥 https://www.youtube.com/watch?v=sngGK764EX8
+
+இந்த வீடியோவில்...
+
+✅ Elite Pen என்றால் என்ன?
+✅ Business எப்படி செயல்படுகிறது?
+✅ எப்படி தொடங்கலாம்?
+✅ வருமானம் உருவாகும் முறை
+✅ யாரெல்லாம் இந்த வாய்ப்பைப் பயன்படுத்தலாம்?
+
+என்பன அனைத்தும் எளிமையாக விளக்கப்பட்டுள்ளன.
+
+📌 *வீடியோவை முழுமையாக பார்த்த பிறகு*, உங்களுக்கு ஏதேனும் சந்தேகங்கள் இருந்தால் இந்த WhatsApp-லேயே கேளுங்கள். மகிழ்ச்சியுடன் விளக்குகிறேன்.
+
+*நன்றி! 🙏*
+</div>
+</div>
+
+<!-- Group Invite Message Box -->
+<div class="message-box">
+    <div class="header">
+        <span class="title">Invitation Message on Day 0</span>
+        <button onclick="copyMessage('Group')">Copy</button>
+    </div>
+
+    <div class="message" id="Group">
+*வணக்கம்! 😊*
+
+*Elite Pen India WhatsApp Community* -க்கு உங்களை அன்புடன் வரவேற்கிறோம்! 🖊️
+
+*Elite Pen* பற்றிய தகவல்கள், Business Updates, Training மற்றும் முக்கிய அறிவிப்புகளை பெற கீழே உள்ள இணைப்பை பயன்படுத்தி இணையுங்கள்.
+
+🔗 *https://chat.whatsapp.com/Gkl01F1JuBUEodRFOM216R*
+
+*Team Elite Pen India* 🤝
+</div>
+</div>
+
+
+<!------------------------------------------------------------------------------------------>
+<!--Follow-up 1 Message -->
+<div class="message-box">
+    <div class="header">
+        <span class="title">Follow-up 1 Message</span>
+        <button onclick="copyMessage('f1')">Copy</button>
+    </div>
+    <div class="message" id="f1">
+*வணக்கம்! 😊*
+
+நான் அனுப்பிய Elite Pen India Business Plan வீடியோவை பார்த்தீர்களா?
+
+🎥 https://www.youtube.com/watch?v=sngGK764EX8
+
+பார்க்க நேரம் கிடைக்கவில்லை என்றால், 10 நிமிடங்கள் ஒதுக்கி முழுமையாக பாருங்கள்.
+
+பார்த்த பிறகு உங்கள் கருத்தையோ அல்லது சந்தேகங்களையோ இந்த WhatsApp-லேயே தெரிவியுங்கள். 😊
+</div>
+</div>
+
+<!------------------------------------------------------------------------------------------>
+<!--Follow-up 2 Message -->
+<div class="message-box">
+    <div class="header">
+        <span class="title">Follow-up 2 Message</span>
+        <button onclick="copyMessage('f2')">Copy</button>
+    </div>
+
+    <div class="message" id="f2">
+*வணக்கம்! 👋*
+
+*Elite Pen India* பற்றிய வீடியோவை பார்த்தீர்களா?
+
+இந்த வாய்ப்பு உங்களுக்கு பொருத்தமானதா என்பதை அறிய, உங்கள் கருத்தை மட்டும் தெரிவியுங்கள்.
+
+*1️⃣ ஆர்வமாக இருக்கிறேன்.*
+*2️⃣ இன்னும் சில சந்தேகங்கள் உள்ளன.*
+*3️⃣ தற்போது ஆர்வம் இல்லை.*
+
+உங்கள் பதிலுக்காக காத்திருக்கிறேன். 😊
+</div>
+</div>
+
+<!------------------------------------------------------------------------------------------>
+<!--Follow-up 3 Message -->
+<div class="message-box">
+    <div class="header">
+        <span class="title">Follow-up 3 Message</span>
+        <button onclick="copyMessage('f3')">Copy</button>
+    </div>
+
+    <div class="message" id="f3">
+*வணக்கம்! 😊*
+
+*Elite Pen India* பற்றிய தகவலை பகிர்ந்திருந்தேன்.
+
+இந்த வாய்ப்பைப் பற்றி தெரிந்துகொள்ள விருப்பம் இருந்தால், நான் உங்களுக்கு முழுமையாக வழிகாட்ட தயாராக இருக்கிறேன்.
+
+ஆர்வம் இருந்தால் *"YES"* என்று மட்டும் பதில் அனுப்புங்கள்.
+
+ஆர்வம் இல்லையெனில் அதையும் *"NO"* என்று தெரிவிக்கலாம். இனி தேவையற்ற Follow-up செய்திகளை அனுப்ப மாட்டேன்.
+
+நன்றி! 🙏
+</div>
+</div>
+
+<!------------------------------------------------------------------------------------------>
+<!--Registration Link -->
+<div class="message-box">
+    <div class="header">
+        <span class="title">Registration Link</span>
+        <button onclick="copyMessage('Join')">Copy</button>
+    </div>
+
+    <div class="message" id="Join">
+*வணக்கம்! 😊*
+
+*Elite Pen India* -வில் புதிய உறுப்பினராக சேர, கீழே உள்ள Link-ஐ பயன்படுத்தி பதிவு செய்யுங்கள். 👇
+
+📝 *Registration Link:*
+https://elitepennetwork.com/register-page/EP3766773
+
+🎥 *பதிவு செய்வது எப்படி என்பதை அறிய இந்த Short Video-வை பாருங்கள்:*
+https://www.youtube.com/shorts/TV1ATnXxvPw
+
+🎉 *Elite Pen India குடும்பத்திற்கு உங்களை அன்புடன் வரவேற்கிறோம்!*
+
+பதிவு செய்யும் போது ஏதேனும் உதவி தேவைப்பட்டால், இந்த WhatsApp-லேயே தொடர்பு கொள்ளுங்கள். நான் மகிழ்ச்சியுடன் உதவுகிறேன். 😊
+</div>
+</div>
+    
+<script>
+function copyMessage(id) {
+    const text = document.getElementById(id).innerText;
+
+    navigator.clipboard.writeText(text)
+        .then(() => alert("Copied!"));
+}
+</script>
+
+</body>
+</html>
